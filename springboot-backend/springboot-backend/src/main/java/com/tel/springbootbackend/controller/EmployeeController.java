@@ -31,6 +31,7 @@ public class EmployeeController {
 	// get all employees
 	@GetMapping("/employees")
 	public List<Employee> getAllEmployees(){
+		System.out.println("In employees list");
 		return employeeRepository.findAll();
 	}	
 	

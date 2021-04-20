@@ -34,6 +34,10 @@ public class EmployeeController {
 		System.out.println("In employees list");
 		return employeeRepository.findAll();
 	}	
+	void Hello()
+	{
+		System.out.println("In Helllo...");
+	}
 	
 	// create employee rest api
 	@PostMapping("/employees")

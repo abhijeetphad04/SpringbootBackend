@@ -35,6 +35,11 @@ public class EmployeeController {
 		return employeeRepository.findAll();
 	}
 	
+	void Hello2()
+	{
+		System.out.println("In Helllo2");
+		System.out.println("Call Raghav");
+	}
 	
 	void Hello()
 	{

@@ -35,26 +35,6 @@ public class EmployeeController {
 		return employeeRepository.findAll();
 	}
 	
-	void Hello2()
-	{
-		System.out.println("In Helllo2");
-		System.out.println("Call Rama");
-	}
-	
-	void Hello()
-	{
-		System.out.println("In Helllo...");
-	}
-	
-	void welcome(){
-		System.out.println("In welcome to aisa...");
-		System.out.println("In welcome ...");
-	}
-	
-	void hey() {
-		System.out.println("Hey Rohann");
-	}
-		
 	// create employee rest api
 	@PostMapping("/employees")
 	public Employee createEmployee(@RequestBody Employee employee) {

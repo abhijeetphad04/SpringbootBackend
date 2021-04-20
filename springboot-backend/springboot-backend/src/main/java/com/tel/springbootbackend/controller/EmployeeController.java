@@ -39,6 +39,9 @@ public class EmployeeController {
 		System.out.println("In Helllo");
 	}
 	
+	void welcome(){
+		System.out.println("in welcome...");
+	}
 	// create employee rest api
 	@PostMapping("/employees")
 	public Employee createEmployee(@RequestBody Employee employee) {

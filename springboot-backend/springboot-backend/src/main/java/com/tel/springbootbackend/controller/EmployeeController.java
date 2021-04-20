@@ -33,7 +33,13 @@ public class EmployeeController {
 	public List<Employee> getAllEmployees(){
 		System.out.println("In employees list");
 		return employeeRepository.findAll();
-	}	
+	}
+	
+	void Hello1()
+	{
+		System.out.println("In Helllo1...");
+	}
+	
 	void Hello()
 	{
 		System.out.println("In Helllo...");

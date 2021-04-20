@@ -36,7 +36,11 @@ public class EmployeeController {
 	}	
 	void Hello()
 	{
-		System.out.println("In Helllo");
+		System.out.println("In Helllo...");
+	}
+	
+	void welcome(){
+		System.out.println("In welcome...");
 	}
 	
 	void welcome(){

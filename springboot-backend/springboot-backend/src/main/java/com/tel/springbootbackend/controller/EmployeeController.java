@@ -40,12 +40,9 @@ public class EmployeeController {
 	}
 	
 	void welcome(){
-		System.out.println("In welcome...");
+		System.out.println("In welcome to aisa...");
 	}
 	
-	void welcome(){
-		System.out.println("in welcome...");
-	}
 	// create employee rest api
 	@PostMapping("/employees")
 	public Employee createEmployee(@RequestBody Employee employee) {
